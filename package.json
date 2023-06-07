@@ -1,0 +1,16 @@
+{
+  "name": "thugleaf-blog",
+  "author": "thugleafVillage",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "preinstall": "pnpm dlx only-allow pnpm"
+  },
+  "packageManager": "pnpm@8.6.1",
+  "workspaces": ["client/*", "server/*"],
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "pnpm": "^8.6.1"
+  }
+}
